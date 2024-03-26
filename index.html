@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 2px solid black; /* Set thick borders for table cells */
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2; /* Add a light background color for header cells */
+        }
+    </style>
+</head>
+<body>
+
+<h2>Employee Data</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Employee Id</th>
+      <th>Name</th>
+      <th>City</th>
+      <th>Phone Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Repeat this row 100 times for each employee -->
+    <tr>
+      <td>1</td>
+      <td>Sarah Johnson</td>
+      <td>New York</td>
+      <td>123-456-7890</td>
+    </tr>
+    <!-- Repeat this row 100 times for each employee -->
+    <tr>
+        <td>2</td>
+        <td>Michael Smith</td>
+        <td>Rivertown</td>
+        <td>555-234-5678</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Emily Brown</td>
+      <td>Willowdale</td>
+      <td>555-345-6789</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>David Martinez</td>
+        <td>Lakeside</td>
+        <td>555-456-7890</td>
+    </tr>
+    <tr>
+      <td>5</td>  
+      <td>Olivia Davis</td>
+      <td>Oakmont</td>
+      <td>555-567-8901</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Daniel Wilson</td>
+        <td>Sunnydale</td>
+        <td>555-678-9012</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Sophia Anderson</td>
+      <td>Harborview</td>
+      <td>555-789-0123</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Ethan Thompson</td>
+        <td>Pinecrest</td>
+        <td>555-890-1234</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Ava Garcia</td>
+        <td>Meadowbrook</td>
+        <td>555-901-2345</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Alexander Taylor</td>
+        <td>Maplewood</td>
+        <td>555-012-3456</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Mia Hernandez</td>
+        <td>Sunset Hills</td>
+        <td>555-123-4567</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>William Thomas</td>
+        <td>Oceanview</td>
+        <td>555-234-5678</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Isabella Lopez</td>
+        <td>Mountainview</td>
+        <td>555-345-6789</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>James Lee</td>
+        <td>Cedar Springs</td>
+        <td>555-456-7890</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Charlotte Moore</td>
+        <td>Rosewood</td>
+        <td>555-567-8901</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Benjamin Clark</td>
+        <td>Greenfield</td>
+        <td>555-678-9012</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Amelia Lewis</td>
+        <td>Riverside</td>
+        <td>555-789-0123</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>Jacob Walker</td>
+        <td>Hillcrest</td>
+        <td>555-890-1234</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>Harper King</td>
+        <td>Fairview</td>
+        <td>555-901-2345</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>Alexander Young</td>
+        <td>Woodland</td>
+        <td>555-012-3456</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>Evelyn Hill</td>
+        <td>Brookside</td>
+        <td>555-123-4567</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Noah Allen</td>
+        <td>Highland Park</td>
+        <td>555-234-5678</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>Abigail Scott</td>
+        <td>Silverton</td>
+        <td>555-345-6789</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>Ethan Green</td>
+        <td>Autumnvale</td>
+        <td>555-456-7890</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>Emma Baker</td>
+        <td>Valleyview</td>
+        <td>555-567-8901</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Ryan Adams</td>
+        <td>Springvale</td>
+        <td>555-678-9012</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>Elizabeth Nelson</td>
+        <td>Crystal Springs</td>
+        <td>555-789-0123</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>Aden White</td>
+        <td>Clearwater</td>
+        <td>555-890-1234</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>Madison Carter</td>
+        <td>Emerald City</td>
+        <td>555-901-2345</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>Lucas Hall</td>
+        <td>Blue Ridge</td>
+        <td>555-012-3456</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>Evelyn Morris</td>
+        <td>Pleasantville</td>
+        <td>555-123-4567</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>Elijah Rivera</td>
+        <td>Willowbrook</td>
+        <td>555-234-5678</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>Grace Hughes</td>
+        <td>Rockville</td>
+        <td>555-345-6789</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>Logan Brooks</td>
+        <td>Summerfield</td>
+        <td>555-456-7890</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>Lily Russell</td>
+        <td>Lakeshore</td>
+        <td>555-567-8901</td>
+    </tr>
+    <tr>
+        <td>36</td>
+        <td>Samuel Ward</td>
+        <td>Greenwood</td>
+        <td>555-678-9012</td>
+    </tr>
+    <tr>
+        <td>37</td>
+        <td>Scarlets Coleman</td>
+        <td>Timberland</td>
+        <td>555-789-0123</td>
+    </tr>
+    <tr>
+        <td>38</td>
+        <td>Jackson Cooper</td>
+        <td>Redwood Falls</td>
+        <td>555-890-1234</td>
+    </tr>
+    <tr>
+        <td>39</td>
+        <td>Avery Murphy</td>
+        <td>Meadowland</td>
+        <td>555-901-2345</td>
+    </tr>
+    <tr>
+        <td>40</td>
+        <td>Daniel Reed</td>
+        <td>Evergreen</td>
+        <td>555-012-3456</td>
+    </tr>
+    <tr>
+        <td>41</td>
+        <td>Joey Wright</td>
+        <td>Ocean Point</td>
+        <td>555-123-4567</td>
+    </tr>
+    <tr>
+        <td>42</td>
+        <td>Mason Bailey</td>
+        <td>Brookhaven</td>
+        <td>555-234-5678</td>
+    </tr>
+    <tr>
+        <td>43</td>
+        <td>Addison Rogers</td>
+        <td>Pinehurst</td>
+        <td>555-345-6789</td>
+    </tr>
+    <tr>
+        <td>44</td>
+        <td>Ethan Powell</td>
+        <td>Stonebridge</td>
+        <td>555-456-7890</td>
+    </tr>
+    <tr>
+        <td>45</td>
+        <td>Chloe Perry</td>
+        <td>Fairhaven</td>
+        <td>555-567-8901</td>
+    </tr>
+    <tr>
+        <td>46</td>
+        <td>Liam Simmons</td>
+        <td>Winterhaven</td>
+        <td>555-678-9012</td>
+    </tr>
+    <tr>
+        <td>47</td>
+        <td>Victoria Wood</td>
+        <td>Harbor City</td>
+        <td>555-789-0123</td>
+    </tr>
+    <tr>
+        <td>48</td>
+        <td>Jacob Price</td>
+        <td>Lakeside</td>
+        <td>555-890-1234</td>
+    </tr>
+    <tr>
+        <td>49</td>
+        <td>Hannah Foster</td>
+        <td>Riverdale</td>
+        <td>555-901-2345</td>
+    </tr>
+    <tr>
+        <td>50</td>
+        <td>Alexander Butler</td>
+        <td>Summitview</td>
+        <td>555-012-3456</td>
+    </tr>
+    <tr>
+        <td>51</td>
+        <td>Cleveland</td>
+        <td>Summitview</td>
+        <td>555-123-4567</td>
+    </tr>
+    <tr>
+        <td>52</td>
+        <td>Tampa</td>
+        <td>Summitview</td>
+        <td>555-234-5678</td>
+    </tr>
+    <tr>
+        <td>53</td>
+        <td>Alexander Hernandez</td>
+        <td>Bakersfield</td>
+        <td>555-345-6789</td>
+    </tr>
+    <tr>
+        <td>54</td>
+        <td>Evelyn Nelson</td>
+        <td>Aurora</td>
+        <td>555-456-7890</td>
+    </tr>
+    <tr>
+        <td>55</td>
+        <td>Michael Campbell</td>
+        <td>Anaheim</td>
+        <td>555-567-8901</td>
+    </tr>
+    <tr>
+        <td>56</td>
+        <td>Mia Mitchell</td>
+        <td>Honolulu</td>
+        <td>555-678-9012</td>
+    </tr>
+    <tr>
+        <td>57</td>
+        <td>William Perez</td>
+        <td>Santa Ana</td>
+        <td>555-776-7878</td>
+    </tr>
+    <tr>
+        <td>58</td>
+        <td>Ava Roberts</td>
+        <td>Riverside</td>
+        <td>555-888-8989</td>
+    </tr>
+    <tr>
+        <td>59</td>
+        <td>James Cox</td>
+        <td>Corpus Christi</td>
+        <td>555-900-0000</td>
+    </tr>
+    <tr>
+        <td>60</td>
+        <td>Harper Gonzalez</td>
+        <td>Lexington</td>
+        <td>555-010-1010</td>
+    </tr>
+    <tr>
+        <td>61</td>
+        <td>Ethan Brooks</td>
+        <td>Stockton</td>
+        <td>555-115-1212</td>
+    </tr>
+    <tr>
+        <td>62</td>
+        <td>Grace Perez</td>
+        <td>Henderson</td>
+        <td>555-227-2323</td>
+    </tr>
+    <tr>
+        <td>63</td>
+        <td>Samuel Flores</td>
+        <td>Saint Paul</td>
+        <td>555-339-3434</td>
+    </tr>
+    <tr>
+        <td>64</td>
+        <td>Amelia Gray</td>
+        <td>St. Louis</td>
+        <td>555-441-4545</td>
+    </tr>
+    <tr>
+        <td>65</td>
+        <td>Daniel Rivera</td>
+        <td>Cincinnati</td>
+        <td>555-553-5656</td>
+    </tr>
+    <tr>
+        <td>66</td>
+        <td>Sofia Kelly</td>
+        <td>Pittsburgh</td>
+        <td>555-665-6767</td>
+    </tr>
+    <tr>
+        <td>67</td>
+        <td>Oliver Cooper</td>
+        <td>Greensboro</td>
+        <td>555-777-7878</td>
+    </tr>
+    <tr>
+        <td>68</td>
+        <td>Charlotte Reed</td>
+        <td>Lincoln</td>
+        <td>555-889-8989</td>
+    </tr>
+    <tr>
+        <td>69</td>
+        <td>Mia Wright</td>
+        <td>Anchorage</td>
+        <td>555-901-0000</td>
+    </tr>
+    <tr>
+        <td>70</td>
+        <td>Noah Coleman</td>
+        <td>Plano</td>
+        <td>555-011-1010</td>
+    </tr>
+    <tr>
+        <td>71</td>
+        <td>Emily Richardson</td>
+        <td>Orlando</td>
+        <td>555-116-1212</td>
+    </tr>
+    <tr>
+        <td>72</td>
+        <td>Alexander Carter</td>
+        <td>Irvine</td>
+        <td>555-228-2323</td>
+    </tr>
+    <tr>
+        <td>73</td>
+        <td>Evelyn Baker</td>
+        <td>Newark</td>
+        <td>555-340-3434</td>
+    </tr><tr>
+        <td>74</td>
+        <td>James Murphy</td>
+        <td>Durham</td>
+        <td>555-442-4545</td>
+    </tr>
+    <tr>
+        <td>75</td>
+        <td>Sophia Turner</td>
+        <td>Chula Vista</td>
+        <td>555-554-5656</td>
+    </tr>
+    <tr>
+        <td>76</td>
+        <td>Benjamin Peterson</td>
+        <td>Toledo</td>
+        <td>555-666-6767</td>
+    </tr>
+    <tr>
+        <td>77</td>
+        <td>Emma Morgan</td>
+        <td>Fort Wayne</td>
+        <td>555-778-7878</td>
+    </tr>
+    <tr>
+        <td>78</td>
+        <td>William Cooper</td>
+        <td>St. Petersburg</td>
+        <td>555-890-8989</td>
+    </tr>
+    <tr>
+        <td>79</td>
+        <td>Ava Reed</td>
+        <td>Laredo</td>
+        <td>555-902-0000</td>
+    </tr>
+    <tr>
+        <td>80</td>
+        <td>Michael Brooks</td>
+        <td>Jersey City</td>
+        <td>555-012-1010</td>
+    </tr>
+    <tr>
+        <td>81</td>
+        <td>Mia Martinez</td>
+        <td>Chandler</td>
+        <td>555-117-1212</td>
+    </tr>
+    <tr>
+        <td>82</td>
+        <td>Alexander Ward</td>
+        <td>Madison</td>
+        <td>555-229-2323</td>
+    </tr>
+    <tr>
+        <td>83</td>
+        <td>Evelyn Hill</td>
+        <td>Lubbock</td>
+        <td>555-341-3434</td>
+    </tr>
+    <tr>
+        <td>84</td>
+        <td>Daniel Bryant</td>
+        <td>Scottsdale</td>
+        <td>555-443-4545</td>
+    </tr>
+    <tr>
+        <td>85</td>
+        <td>Harper Green</td>
+        <td>Reno</td>
+        <td>555-555-5656</td>
+    </tr>
+    <tr>
+        <td>86</td>
+        <td>Olivia Phillips</td>
+        <td>Buffalo</td>
+        <td>555-667-6767</td>
+    </tr>
+    <tr>
+        <td>87</td>
+        <td>Elijah Long</td>
+        <td>Gilbert</td>
+        <td>555-779-7878</td>
+    </tr>
+    <tr>
+        <td>88</td>
+        <td>Chloe King</td>
+        <td>Glendale</td>
+        <td>555-891-8989</td>
+    </tr>
+    <tr>
+        <td>89</td>
+        <td>Noah Hughes</td>
+        <td>North Las Vegas</td>
+        <td>555-903-0000</td>
+    </tr>
+    <tr>
+        <td>90</td>
+        <td>Amelia Bell</td>
+        <td>Winston–Salem</td>
+        <td>555-013-1010</td>
+    </tr>
+    <tr>
+        <td>91</td>
+        <td>Samuel Stewart</td>
+        <td>Chesapeake</td>
+        <td>555-118-1212</td>
+    </tr>
+    <tr>
+        <td>92</td>
+        <td>Emily Martinez</td>
+        <td>Norfolk</td>
+        <td>555-230-2323</td>
+    </tr>
+    <tr>
+        <td>93</td>
+        <td>Sophia Rogers</td>
+        <td>Fremont</td>
+        <td>555-342-3434</td>
+    </tr>
+    <tr>
+        <td>94</td>
+        <td>Benjamin Diaz</td>
+        <td>Garland</td>
+        <td>555-444-4545</td>
+    </tr>
+    <tr>
+        <td>95</td>
+        <td>Ava Flores</td>
+        <td>Irving</td>
+        <td>555-556-5656</td>
+    </tr>
+    <tr>
+        <td>96</td>
+        <td>Michael Coleman</td>
+        <td>Hialeah</td>
+        <td>555-668-6767</td>
+    </tr>
+    <tr>
+        <td>97</td>
+        <td>Mia Rivera</td>
+        <td>Boise</td>
+        <td>555-780-7878</td>
+    </tr>
+    <tr>
+        <td>98</td>
+        <td>Alexander Powell</td>
+        <td>Richmond</td>
+        <td>555-892-8989</td>
+    </tr>
+    <tr>
+        <td>99</td>
+        <td>Emma Adams</td>
+        <td>Spokane</td>
+        <td>555-904-0000</td>
+    </tr>
+    <tr>
+        <td>100</td>
+        <td>William Murphy</td>
+        <td>Baton Rouge</td>
+        <td>555-014-1010</td>
+    </tr>
+
+
+
+
+
+  </tbody>
+</table>
+
+</body>
+</html>
